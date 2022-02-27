@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+
+/* HEADER */
+.encabezado {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color:black;
+    padding-right: 30px;
+}
+.header h2 {
+    
+    word-spacing: 2vh;
+    letter-spacing: -0.5vh;
+    font-family: 'Alegreya', serif;
+    font-size: 10vh;
+    color: #FFC745;
+}
+/* BODY */
+
+/* NAV */
+.navbar {
+    background-color: wheat;
+}
+
+.portada {
+    background-color:white;
+}
+.nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* MAIN */
+.card-title {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Alegreya', serif;
+    color:#012615;
+    text-align: right;
+    margin-top: 7px;
+}
+.card-text {
+    font-size: 5vh;
+    margin-top: 15px;
+    padding-top: 20px;
+    color: #012615;
+    text-align: right;
+}
+.botonreserva {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+}
+.btn.btn-lg.btn-primary.btn-secondary {
+    font-size: 40px;
+    border: solid #012615;            
+}
+.btn.btn-lg.btn-primary.btn-secondary a {
+    text-decoration: none;
+    color:#012615;
+    font-family:'Alegreya', serif;
+    font-weight: 700;
+    
+}
+/* FORMULARIO */
+.formularioContacto {
+    
+    background-color: #F2F2F2;
+}
+.contenedorFormulario {
+    height: 100%;
+    width: auto;
+    padding-top: 30px;
+}
+.formulario {
+    height: 100%;
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:space-between;
+    align-items: center;
+    
+    color:#027368 ;
+   
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* PRODUCTOS*/
+.producto1 {
+    
+    border: solid 3px;
+    background-color: rgb(95, 93, 92);
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 12px;
+    margin-left: 70px;
+}
+.producto2 {
+    
+    border: solid 3px;
+    background-color: rgb(95, 93, 92);
+    height: 350px;
+    width: 350px;
+    
+    margin-top: 60px;
+    margin-right: 12px;
+    margin-left: 70px;
+}
+.producto3 {
+   
+    border: solid 3px;
+    background-color: rgb(95, 93, 92);
+    height: 350px;
+    width: 350px;
+    
+    margin-top: 60px;
+    margin-right: 12px;
+    margin-left: 70px;
+}
+.card__header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: black;
+    color: rgb(166, 200, 230);
+}
+.card__img {
+    height: 70%;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 33px;    
+}
+.card__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: solid grey;
+}
+
+
+.card__body {
+    height: 100%;
+    width: auto;
+    
+}
+.card__body p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+} 
+
+
+
+/* FOOTER */
+.footer {
+    background-color: black;
+}
+.derechos.col-md-6 {
+    color:antiquewhite;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.derechos.col-md-6 p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.redes {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+   
+}    
+.pie {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.pie p {
+    color: antiquewhite;
+    font-size: 15px;    
+}
+.pie-link {
+    text-decoration: none;
+}
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    .header h2 {
+        font-size: 7vh;
+    }
+    .btn.btn-lg.btn-primary.btn-danger {
+        font-size: 20px;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .card-text {
+        font-size: 20px;
+    }
+
+    
+}
