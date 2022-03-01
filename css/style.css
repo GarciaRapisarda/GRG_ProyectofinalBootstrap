@@ -70,8 +70,14 @@
     
 }
 /* FORMULARIO */
-.botoner {
+.botonera {
     padding-right: 10px;
+}
+.fondoContacto {
+    
+    background-image: url();
+    background-repeat: repeat-y;
+    
 }
 
 /* GRID */
@@ -99,6 +105,7 @@
 
 .producto1 {
     grid-area: producto1;   
+    border: solid rgb(109, 109, 124) 3px;
 }
 .card-title-individual {
     font-size: 35px;
@@ -106,10 +113,12 @@
     color: #012615;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
+    
 }
 
 .producto2 {
     grid-area: producto2;
+    border: solid rgb(109, 109, 124) 3px;
     
 }
 .card-title-grupal {
@@ -120,6 +129,7 @@
 }
 .producto3 {
     grid-area: producto3;
+    border: solid rgb(109, 109, 124) 3px;
     
 }
 .card-title-online {
